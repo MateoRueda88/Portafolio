@@ -12,6 +12,7 @@ body {
   height: auto;
   background-color: #0d0c0c;
 }
+
 /* estilizando header y nav */
 .header {
   width: 100%;
@@ -39,11 +40,20 @@ body {
 }
 .content-nav ul li {
   list-style-type: none;
+  width: 33%;
+  text-align: center;
 }
 .content-nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 20px;
+}
+.content-nav .active{
+  color: #d2ce70;
+}
+.content-nav ul li a:hover{
+color: #d2ce70;
+font-size: 1.2rem;
 }
 /* estilizando el main */
 .main {
@@ -60,6 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 4rem;
 }
 /* content main */
 .content-main {
@@ -84,10 +95,12 @@ body {
   gap: 1rem;
 }
 .foto-perfil {
-  width: 180px;
+  width: 200px;
   height: 200px;
+  bottom: 10px;
   border-radius: 50%;
   object-fit: cover;
+  border:3px solid #d2ce70;
 }
 .container-info {
   display: flex;
@@ -118,6 +131,7 @@ body {
 .conten-icons img {
   width: 33px;
 }
+
 .cont-cv {
   height: 240px;
   width: 30%;
@@ -137,6 +151,7 @@ body {
   width: 70px;
   height: 70px;
   object-fit: cover;
+  
 }
 /* contenedor descripcion */
 
@@ -166,6 +181,7 @@ body {
   justify-content: center;
   color: white;
   font-size: 1.2rem;
+  font-weight: 100;
 }
 /* contenido herramientas de trabajo */
 .herramientas {
@@ -200,18 +216,18 @@ body {
 
 /* contenido proyectos  */
 .proyectos {
-  width: 100%;
+  width: 80%;
   display: flex;
   height: auto;
   justify-content: center;
   padding-bottom: 1rem;
-  border-bottom: 5px solid #d2ce70;
+  border-bottom: 5px solid #333334;
 }
 .titulo-proyectos {
   text-align: center;
-  color: white;
+  color: #d2ce70;
   width: 80%;
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding: 1rem;
 }
 /* estilos proyectos */
@@ -241,6 +257,7 @@ body {
   text-align: center;
   padding-top: 1rem;
   border-radius: 10px;
+  font-size: .7rem;
 }
 .cont-img-card {
   width: 50%;
@@ -250,7 +267,7 @@ body {
   width: 85%;
   height: 100%;
   object-fit: cover;
-  border-radius: 0 10px 0 0;
+  border-radius: 0 10px 0 10px;
 }
 .section-card {
   display: flex;
@@ -297,7 +314,7 @@ body {
   /* background-color: red; */
 }
 .titulo-experiencia {
-  color: white;
+  color: #d2ce70;
   font-size: 2.3rem;
   padding-top: 2rem;
 }
@@ -326,6 +343,7 @@ body {
 .descripction-experiencias .fecha {
   font-size: 0.7rem;
   color: white;
+  font-weight: 600;
 }
 .descripction-experiencias h4 {
   text-align: center;
@@ -340,6 +358,12 @@ body {
 .descripction-experiencias .descripcion-experiencia-text {
   padding: 1rem;
   color: white;
+  font-weight: 100;
+  text-align: center;
+}
+.descripction-experiencias .descripcion-experiencia-text:hover{
+  color: black;
+  background-color: #ecec54eb;
 }
 .cont-form {
   width: 100%;
@@ -386,25 +410,39 @@ label {
   font-weight: 600;
   display: flex;
   flex-direction: column;
+  gap: .3rem;
 }
 .contenido-formulario input {
+  display: flex;
+  align-items: center;
   background-color: #828282;
   border: none;
+  border-bottom: 3px solid #d2ce70;
   padding: 0.3rem;
+  border-radius: 10px;
+
 }
 textarea {
   background-color: #828282;
   border: none;
+  border-radius: 10px;
+  border-bottom: 3px solid #d2ce70;
 }
 .btn-contacto {
   background-color: #d2ce70;
   border: none;
   width: 70%;
-  padding: 0.6rem;
+  padding: 0.5rem;
   font-weight: 700;
   font-size: 1rem;
+  border-radius: 10px;
+}
+.btn-contacto:hover{
+  background-color: #000000;
+  color: white;
 }
 footer {
+  margin-top: 1rem;
   display: flex;
   background-color: #d2ce70;
   flex-direction: column;
@@ -431,7 +469,20 @@ footer {
   border-bottom: 1px solid #000000;
   padding-bottom: .5rem;
 }
-.redes
+.redes article{
+
+  width: 40%;
+  height: auto;
+  padding: .3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+}
+.redes img{
+  width: 30px;
+}
+
 .nav-footer{
   width: 30%;
   display: flex;
@@ -448,4 +499,21 @@ footer {
 }
 .enlaces-nav-footer:hover{
   color: aliceblue;
+}
+
+.contenido-correo-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .6rem;
+}
+.contenido-correo-footer a{
+  text-decoration: none;
+  color: #000000;
+}
+.contenido-correo-footer a:hover{
+  color: white;
+}
+.contenido-correo-footer img{
+  width: 40px;
 }
