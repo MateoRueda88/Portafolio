@@ -54,8 +54,9 @@ body {
   align-items: center;
   gap: 1rem;
 }
-.cont{
+.cont {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -216,7 +217,7 @@ body {
 /* estilos proyectos */
 .container-cards {
   width: 100%;
- padding-top: 30px;
+  padding-top: 30px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -234,15 +235,14 @@ body {
   gap: 1.5rem;
   border-bottom: 3px solid #d2ce70;
 }
-.card h6{
+.card h6 {
   color: #d2ce70;
   width: 100%;
   text-align: center;
-  padding-top: 1rem ;
+  padding-top: 1rem;
   border-radius: 10px;
 }
-.cont-img-card{
- 
+.cont-img-card {
   width: 50%;
   height: 25.8vh;
 }
@@ -250,46 +250,202 @@ body {
   width: 85%;
   height: 100%;
   object-fit: cover;
-  border-radius: 0 10px  0 0;
+  border-radius: 0 10px 0 0;
 }
-.section-card{
+.section-card {
   display: flex;
   width: 90%;
-  
-  
 }
-.section-card article{
+.section-card article {
   display: flex;
   flex-direction: column;
 
   width: 50%;
-  gap: .4rem;
+  gap: 0.4rem;
 }
-.section-card ul{
+.section-card ul {
   display: flex;
   justify-content: space-around;
-  gap: .4rem;
+  gap: 0.4rem;
 }
-.section-card ul li{
+.section-card ul li {
   list-style-type: none;
   font-size: 10pt;
-  color:#d2ce70;
-  padding: .4rem;
+  color: #d2ce70;
+  padding: 0.4rem;
   background-color: #333334;
   border-radius: 10px;
-
 }
-.subtitulo-card{
+.subtitulo-card {
   color: white;
   font-size: 1.2rem;
 }
-.descripcion-card{
+.descripcion-card {
   color: white;
-  font-size: .8rem;
-  margin-left: .2rem;
+  font-size: 0.8rem;
+  margin-left: 0.2rem;
 }
-/* .lis{
-  width: 100%;
-  background-color: #d2ce70;
+.cont-experiencia {
+  width: 90%;
+  height: auto;
+  display: flex;
+  gap: 3rem;
+  padding: 1rem;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+}
+.titulo-experiencia {
   color: white;
-} */
+  font-size: 2.3rem;
+  padding-top: 2rem;
+}
+.experiencias {
+  /* background-color: aqua; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 10px solid #d2ce70;
+  padding-left: 1rem;
+}
+
+.experiencias .disponible {
+  display: flex;
+  justify-content: end;
+  font-weight: 800;
+  font-size: 0.8rem;
+  color: white;
+}
+.descripction-experiencias {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.descripction-experiencias .fecha {
+  font-size: 0.7rem;
+  color: white;
+}
+.descripction-experiencias h4 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #d2ce70;
+}
+.descripction-experiencias h6 {
+  text-align: center;
+  font-size: 0.8rem;
+  color: white;
+}
+.descripction-experiencias .descripcion-experiencia-text {
+  padding: 1rem;
+  color: white;
+}
+.cont-form {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenido-formulario {
+  background-color: rgb(65, 65, 65, 0.5);
+  width: 70%;
+  height: 460px;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-right: 10px solid #d2ce70;
+  padding: 1rem;
+}
+.titulo-formulario {
+  width: 70%;
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 2.5rem;
+  color: #d2ce70;
+  border-bottom: 2px solid #1e1e1e;
+}
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+fieldset {
+  display: flex;
+  border: none;
+  gap: 1rem;
+}
+label {
+  color: #d2ce70;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+.contenido-formulario input {
+  background-color: #828282;
+  border: none;
+  padding: 0.3rem;
+}
+textarea {
+  background-color: #828282;
+  border: none;
+}
+.btn-contacto {
+  background-color: #d2ce70;
+  border: none;
+  width: 70%;
+  padding: 0.6rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+footer {
+  display: flex;
+  background-color: #d2ce70;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+}
+.lis {
+  width: 100%;
+  color: #000000;
+  text-align: end;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+.contenido-footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: auto;
+}
+
+.redes{
+  width: 40%;
+  border-bottom: 1px solid #000000;
+  padding-bottom: .5rem;
+}
+.redes
+.nav-footer{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: .9rem;
+}
+.enlaces-nav-footer{
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.enlaces-nav-footer:hover{
+  color: aliceblue;
+}
