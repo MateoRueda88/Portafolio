@@ -1,0 +1,2 @@
+Estamos en la creacion de un portafolio personal y profesional que pueda orientar a los reclutadores o personal interesado en la contratacion de talentos tech puedan tener una vision del trabajo ejercido por aquel desarrollador.
+en este proyecto vamos a trabajar basicamente con HTML CSS Y JAVASCRIPT lo que buscamos es crear algo basico con ciertas funcionalidades y animaciones traidas desde js y css con el fin de implementar todos los conociemientos obtenidos en Generation Colombia
