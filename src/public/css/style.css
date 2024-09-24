@@ -36,7 +36,7 @@ body {
   gap: 3rem;
   padding: 0.5rem 1rem;
   border-radius: 30px;
-  border-bottom: 2px solid #d2ce70;
+  border-bottom: 2px solid #DDED02;
 }
 .content-nav ul li {
   list-style-type: none;
@@ -49,10 +49,10 @@ body {
   font-size: 20px;
 }
 .content-nav .active{
-  color: #d2ce70;
+  color: #DDED02;
 }
 .content-nav ul li a:hover{
-color: #d2ce70;
+color: #DDED02;
 font-size: 1.2rem;
 }
 /* estilizando el main */
@@ -86,8 +86,8 @@ font-size: 1.2rem;
   height: 240px;
   display: flex;
   justify-content: space-between;
-  border-right: 18px solid #d2ce70;
-  border-radius: 10px 10px 0px 0;
+  border-right: 5px solid #DDED02;
+  border-radius: 5px 5px 0px 0;
 }
 .info-perfil {
   width: 60%;
@@ -100,7 +100,7 @@ font-size: 1.2rem;
   bottom: 10px;
   border-radius: 50%;
   object-fit: cover;
-  border:3px solid #d2ce70;
+  /* border:2px solid #DDED02; */
 }
 .container-info {
   display: flex;
@@ -123,8 +123,10 @@ font-size: 1.2rem;
 }
 .ciudad {
   font-weight: 100;
+  font-size: 12pt;
 }
 .conten-icons {
+  width: auto;
   display: flex;
   gap: 1.5rem;
 }
@@ -137,8 +139,8 @@ font-size: 1.2rem;
   width: 30%;
   display: flex;
   justify-content: end;
-  border-bottom: 18px solid #d2ce70;
-  border-radius: 10px 10px 0 10px;
+  border-bottom: 5px solid #DDED02;
+  border-radius: 5px 5px 0 5px;
 }
 .cv {
   display: flex;
@@ -148,8 +150,8 @@ font-size: 1.2rem;
   height: 120px;
 }
 .cv img {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   
 }
@@ -161,8 +163,8 @@ font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  border-left: 18px solid #d2ce70;
-  border-radius: 10px 0 0 10px;
+  border-left: 5px solid #DDED02;
+  border-radius: 5px 0 0 5px;
 }
 .titulo-descripcion {
   margin-left: 100px;
@@ -170,7 +172,7 @@ font-size: 1.2rem;
   color: white;
 }
 .titulo-descripcion span {
-  color: #d2ce70;
+  color: #DDED02;
   font-size: 3rem;
 }
 .descripcion-perfil {
@@ -198,7 +200,7 @@ font-size: 1.2rem;
   font-size: 3rem;
   text-align: center;
   font-weight: bold;
-  color: #d2ce70;
+  color: #DDED02;
 }
 .cont-img-herramientas {
   display: flex;
@@ -225,7 +227,7 @@ font-size: 1.2rem;
 }
 .titulo-proyectos {
   text-align: center;
-  color: #d2ce70;
+  color: #DDED02;
   width: 80%;
   font-size: 2.2rem;
   padding: 1rem;
@@ -249,10 +251,10 @@ font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  border-bottom: 3px solid #d2ce70;
+  border-bottom: 3px solid #DDED02;
 }
 .card h6 {
-  color: #d2ce70;
+  color: #DDED02;
   width: 100%;
   text-align: center;
   padding-top: 1rem;
@@ -276,7 +278,6 @@ font-size: 1.2rem;
 .section-card article {
   display: flex;
   flex-direction: column;
-
   width: 50%;
   gap: 0.4rem;
 }
@@ -288,7 +289,7 @@ font-size: 1.2rem;
 .section-card ul li {
   list-style-type: none;
   font-size: 10pt;
-  color: #d2ce70;
+  color: #DDED02;
   padding: 0.4rem;
   background-color: #333334;
   border-radius: 10px;
@@ -314,7 +315,7 @@ font-size: 1.2rem;
   /* background-color: red; */
 }
 .titulo-experiencia {
-  color: #d2ce70;
+  color: #DDED02;
   font-size: 2.3rem;
   padding-top: 2rem;
 }
@@ -324,7 +325,7 @@ font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  border-left: 10px solid #d2ce70;
+  border-left: 5px solid #DDED02;
   padding-left: 1rem;
 }
 
@@ -348,7 +349,7 @@ font-size: 1.2rem;
 .descripction-experiencias h4 {
   text-align: center;
   font-size: 1.3rem;
-  color: #d2ce70;
+  color: #DDED02;
 }
 .descripction-experiencias h6 {
   text-align: center;
@@ -363,7 +364,7 @@ font-size: 1.2rem;
 }
 .descripction-experiencias .descripcion-experiencia-text:hover{
   color: black;
-  background-color: #ecec54eb;
+  background-color: #DDED02;
 }
 .cont-form {
   width: 100%;
@@ -381,7 +382,7 @@ font-size: 1.2rem;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  border-right: 10px solid #d2ce70;
+  border-right: 5px solid #DDED02;
   padding: 1rem;
 }
 .titulo-formulario {
@@ -389,7 +390,7 @@ font-size: 1.2rem;
   text-align: center;
   padding: 0.4rem;
   font-size: 2.5rem;
-  color: #d2ce70;
+  color: #DDED02;
   border-bottom: 2px solid #1e1e1e;
 }
 form {
@@ -406,7 +407,7 @@ fieldset {
   gap: 1rem;
 }
 label {
-  color: #d2ce70;
+  color: #DDED02;
   font-weight: 600;
   display: flex;
   flex-direction: column;
@@ -417,7 +418,7 @@ label {
   align-items: center;
   background-color: #828282;
   border: none;
-  border-bottom: 3px solid #d2ce70;
+  border-bottom: 3px solid #DDED02;
   padding: 0.3rem;
   border-radius: 10px;
 
@@ -426,10 +427,10 @@ textarea {
   background-color: #828282;
   border: none;
   border-radius: 10px;
-  border-bottom: 3px solid #d2ce70;
+  border-bottom: 3px solid #DDED02;
 }
 .btn-contacto {
-  background-color: #d2ce70;
+  background-color: #DDED02;
   border: none;
   width: 70%;
   padding: 0.5rem;
@@ -444,7 +445,7 @@ textarea {
 footer {
   margin-top: 1rem;
   display: flex;
-  background-color: #d2ce70;
+  background-color: #DDED02;
   flex-direction: column;
   height: auto;
   width: 100%;
