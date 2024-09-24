@@ -134,6 +134,11 @@ font-size: 1.2rem;
   width: 33px;
 }
 
+.conten-icons img:hover{
+  background-color: white;
+  border-radius: 50%;
+}
+
 .cont-cv {
   height: 240px;
   width: 30%;
