@@ -1,17 +1,25 @@
 PORTAFOLIO MATEO RUEDA DESARROLLADOR WEB FRONTEND
 
+///////////////////  |||||||||||||||||  ////////////////////////
+
 Estamos en la creacion de un portafolio personal y profesional que pueda orientar a los reclutadores o personal interesado en la contratacion de talentos tech puedan tener una vision del trabajo ejercido por aquel desarrollador.
 en este proyecto vamos a trabajar basicamente con HTML CSS Y JAVASCRIPT lo que buscamos es crear algo basico con ciertas funcionalidades y animaciones traidas desde js y css con el fin de implementar todos los conociemientos obtenidos en Generation Colombia.
+
+///////////////////  |||||||||||||||||  ////////////////////////
 
 Soy desarrollador Full-Stack con enfasis en el diseño y experiencia de usuario, poseo bases solidas en el desarrollo de aplicativos y páginas web, tanto frontend como backend, cuento con conocimientos en HTML, CSS, JavaScript Y Java, con capacidad de crear contenido atractivo y dinámico. Con las habilidades para trabajar en equipo, orientación al detalle y experiencia en la construcción y elaboración de proyectos desafiantes.
 
 Mi capacidad para liderar equipos se ha evidenciado en mis habilidades de comunicación efectiva, las cuales han sido fundamentales para resolver diversas situaciones y asegurar una toma de decisiones eficiente.
+
+///////////////////  |||||||||||||||||  ////////////////////////
 
 HERRAMIENTAS & HABILIDADES.
 
 Front-end: HTML5, CSS3, JavaScript, Figma, Boostrap
 Back-end: Node.js, Express, MongoDB, MySQL, JAVA
 Herramientas: Git, Github, Docker, Trello.
+
+///////////////////  |||||||||||||||||  ////////////////////////
 
 PROYECTOS
 
@@ -29,6 +37,8 @@ Monsteral
 JavaScript, SpringBoot. 
 -Diseñé y desarrollé la interfaz del usuario utilizando Bootstrap y CSS personalizado con el 
 fin de mejorar la experiencia de usuario.
+
+///////////////////  |||||||||||||||||  ////////////////////////
 
 CONTACTO
 
