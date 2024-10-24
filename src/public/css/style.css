@@ -10,7 +10,7 @@
 body {
   width: 100%;
   height: auto;
-  background-color: #0d0c0c;
+  background-color: rgb(13, 12, 12);
 }
 
 /* estilizando header y nav */
@@ -209,23 +209,38 @@ font-size: 1.2rem;
 }
 
 section{
+  /* background-color: aqua; */
   display: flex;
-  justify-content: space-between;
-  width: 95%;
-  height: 200px;
+  gap: .4rem;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: .5rem;
+  /* background-color: aqua; */
+}
+.cont-img-herr{
+  width: 12%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* background-color: #333334; */
+  
 }
 section img{
-  width: 100px;
+  width: 80px;
   /* flex-grow: 1; */
   object-fit: contain;
   opacity: .8;
   transition: .5s ease;
 }
 section img:hover{
-  cursor: crosshair;
-  width: 150px;
+  width: 105px;
   opacity: 1;
   filter: contrast(120%);
+  transition: .7s;
 }
 
 
@@ -376,11 +391,12 @@ section img:hover{
   padding: 1rem;
   color: white;
   font-weight: 100;
-  text-align: center;
+  
 }
 .descripction-experiencias .descripcion-experiencia-text:hover{
   color: black;
-  background-color: #DDED02;
+  background-color: rgb(221, 237, 2, .5);
+  transition: 1s;
 }
 .cont-form {
   width: 100%;
