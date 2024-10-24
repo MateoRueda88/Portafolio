@@ -78,6 +78,7 @@ font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
   /* background-color: red; */
 }
 /* contenedor perfil imagen informacion cv */
@@ -226,7 +227,7 @@ section{
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  /* background-color: #333334; */
+
   
 }
 section img{
@@ -240,7 +241,7 @@ section img:hover{
   width: 105px;
   opacity: 1;
   filter: contrast(120%);
-  transition: .7s;
+  transition: .6s;
 }
 
 
@@ -394,9 +395,10 @@ section img:hover{
   
 }
 .descripction-experiencias .descripcion-experiencia-text:hover{
-  color: black;
-  background-color: rgb(221, 237, 2, .5);
-  transition: 1s;
+  color: rgb(221, 237, 2);
+  /* background-color: rgb(221, 237, 2); */
+  transition: 2s;
+  
 }
 .cont-form {
   width: 100%;
@@ -460,6 +462,7 @@ textarea {
   border: none;
   border-radius: 10px;
   border-bottom: 3px solid #DDED02;
+  padding: 0.3rem;
 }
 .btn-contacto {
   background-color: #DDED02;
@@ -472,6 +475,10 @@ textarea {
 }
 .btn-contacto:hover{
   background-color: #000000;
+  color: white;
+}
+
+::placeholder{
   color: white;
 }
 footer {
