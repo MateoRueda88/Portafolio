@@ -28,7 +28,7 @@ body {
   justify-content: center;
 }
 .content-nav ul {
-  width: 60%;
+  width: 80%;
   display: flex;
   background-color: #1e1e1e;
   justify-content: center;
@@ -75,6 +75,7 @@ font-size: 1.2rem;
 /* content main */
 .content-main {
   width: 90%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -202,7 +203,7 @@ font-size: 1.2rem;
   gap: 4rem;
 }
 .descripcion-herramientas {
-  width: 80%;
+  width: 90%;
   font-size: 3rem;
   text-align: center;
   font-weight: bold;
@@ -211,10 +212,10 @@ font-size: 1.2rem;
 
 section{
   /* background-color: aqua; */
-  display: flex;
-  gap: .4rem;
   width: 100%;
   height: auto;
+  display: flex;
+  gap: .4rem;
   flex-wrap: wrap;
   justify-content: center;
   padding: .5rem;
@@ -230,7 +231,7 @@ section{
 
   
 }
-section img{
+.cont-img-herr img{
   width: 80px;
   /* flex-grow: 1; */
   object-fit: contain;
